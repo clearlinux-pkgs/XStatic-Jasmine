@@ -4,7 +4,7 @@
 #
 Name     : XStatic-Jasmine
 Version  : 2.1.2.0
-Release  : 10
+Release  : 11
 URL      : https://pypi.python.org/packages/source/X/XStatic-Jasmine/XStatic-Jasmine-2.1.2.0.tar.gz
 Source0  : https://pypi.python.org/packages/source/X/XStatic-Jasmine/XStatic-Jasmine-2.1.2.0.tar.gz
 Summary  : Jasmine 2.1.2 (XStatic packaging standard)
