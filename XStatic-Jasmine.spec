@@ -4,7 +4,7 @@
 #
 Name     : XStatic-Jasmine
 Version  : 2.4.1.1
-Release  : 21
+Release  : 22
 URL      : http://pypi.debian.net/XStatic-Jasmine/XStatic-Jasmine-2.4.1.1.tar.gz
 Source0  : http://pypi.debian.net/XStatic-Jasmine/XStatic-Jasmine-2.4.1.1.tar.gz
 Summary  : Jasmine 2.4.1 (XStatic packaging standard)
