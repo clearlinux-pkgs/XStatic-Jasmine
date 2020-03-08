@@ -4,7 +4,7 @@
 #
 Name     : XStatic-Jasmine
 Version  : 2.4.1.2
-Release  : 26
+Release  : 27
 URL      : https://files.pythonhosted.org/packages/66/c2/d9480458ab724198581884ea22f836508a6c9282b8fb4a983bda8675cbba/XStatic-Jasmine-2.4.1.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/66/c2/d9480458ab724198581884ea22f836508a6c9282b8fb4a983bda8675cbba/XStatic-Jasmine-2.4.1.2.tar.gz
 Summary  : Jasmine 2.4.1 (XStatic packaging standard)
@@ -15,18 +15,17 @@ Requires: XStatic-Jasmine-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
 
 %description
-XStatic-Jasmine
 ---------------
-
-Jasmine JavaScript library packaged for setuptools (easy_install) / pip.
-
-This package is intended to be used by **any** project that needs these files.
-
-It intentionally does **not** provide any extra code except some metadata
-**nor** has any extra requirements. You MAY use some minimal support code from
-the XStatic base package, if you like.
-
-You can find more info about the xstatic packaging way in the package `XStatic`.
+        
+        Jasmine JavaScript library packaged for setuptools (easy_install) / pip.
+        
+        This package is intended to be used by **any** project that needs these files.
+        
+        It intentionally does **not** provide any extra code except some metadata
+        **nor** has any extra requirements. You MAY use some minimal support code from
+        the XStatic base package, if you like.
+        
+        You can find more info about the xstatic packaging way in the package `XStatic`.
 
 %package python
 Summary: python components for the XStatic-Jasmine package.
@@ -42,7 +41,7 @@ python components for the XStatic-Jasmine package.
 Summary: python3 components for the XStatic-Jasmine package.
 Group: Default
 Requires: python3-core
-Provides: pypi(XStatic-Jasmine)
+Provides: pypi(xstatic_jasmine)
 
 %description python3
 python3 components for the XStatic-Jasmine package.
@@ -57,8 +56,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1582851462
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1583695397
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$CFLAGS -fno-lto "
